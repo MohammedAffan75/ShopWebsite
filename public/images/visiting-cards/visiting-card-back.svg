@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D0B24" />
+      <stop offset="50%" stop-color="#2A0518" />
+      <stop offset="100%" stop-color="#19020E" />
+    </linearGradient>
+    <linearGradient id="cardGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF1C7" />
+      <stop offset="45%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#996515" />
+    </linearGradient>
+    <pattern id="cardLace" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 15 0 L 30 15 L 15 30 L 0 15 Z" fill="none" stroke="rgba(212,175,55,0.08)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1050" height="600" rx="24" fill="url(#cardBg)" />
+  <rect width="1050" height="600" rx="24" fill="url(#cardLace)" />
+  <rect x="25" y="25" width="1000" height="550" rx="18" fill="none" stroke="url(#cardGold)" stroke-width="2" stroke-dasharray="8,6" opacity="0.6" />
+  <rect x="40" y="40" width="970" height="520" rx="14" fill="none" stroke="url(#cardGold)" stroke-width="1" opacity="0.3" />
+
+  
+  <!-- Back of Visiting Card -->
+  <g text-anchor="middle" transform="translate(525, 160)">
+    <circle cx="0" cy="0" r="50" fill="none" stroke="url(#cardGold)" stroke-width="3" />
+    <text y="8" font-family="'Playfair Display', Georgia, serif" font-size="30" font-weight="700" fill="url(#cardGold)">H</text>
+    <text y="85" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="700" fill="#FFFFFF">
+      Google Rated 5.0 ★★★★★
+    </text>
+    <text y="125" font-family="'Poppins', sans-serif" font-size="16" fill="#FBF1C7">
+      "Neat stitching, wonderful equipment and pocket-friendly price."
+    </text>
+    <text y="155" font-family="'Poppins', sans-serif" font-size="14" fill="#D4AF37">
+      - Verified Raichur Customers
+    </text>
+
+    <!-- QR Callout -->
+    <rect x="-180" y="195" width="360" height="60" rx="12" fill="rgba(212,175,55,0.15)" stroke="url(#cardGold)" stroke-width="1.5" />
+    <text y="232" font-family="'Poppins', sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">
+      SCAN OR VISIT: hibaladiestailor.com
+    </text>
+  </g>
+  
+</svg>

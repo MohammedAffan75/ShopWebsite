@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#340A24" />
+      <stop offset="100%" stop-color="#190311" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F9E79F" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA7C11" />
+    </linearGradient>
+    <pattern id="embroideryLace" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 40 20 L 20 40 L 0 20 Z" fill="none" stroke="rgba(212,175,55,0.08)" stroke-width="1.5" />
+      <circle cx="20" cy="20" r="4" fill="none" stroke="rgba(212,175,55,0.12)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#bgGrad)" />
+  <rect width="800" height="1000" fill="url(#embroideryLace)" />
+
+  <!-- Ornate Border Frame -->
+  <rect x="30" y="30" width="740" height="940" rx="20" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-dasharray="6,4" opacity="0.6" />
+  <rect x="45" y="45" width="710" height="910" rx="14" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.3" />
+
+  <!-- Corner Mandalas -->
+  <g fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.7">
+    <path d="M 45 75 Q 75 75 75 45" />
+    <circle cx="75" cy="75" r="8" />
+    <path d="M 755 75 Q 725 75 725 45" />
+    <circle cx="725" cy="75" r="8" />
+    <path d="M 45 925 Q 75 925 75 955" />
+    <circle cx="75" cy="925" r="8" />
+    <path d="M 755 925 Q 725 925 725 955" />
+    <circle cx="725" cy="925" r="8" />
+  </g>
+
+  <!-- Center Decorative Artwork -->
+  <g transform="translate(400, 420)">
+    <!-- Aura Rings -->
+    <circle r="180" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.25" stroke-dasharray="8,8" />
+    <circle r="150" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.4" />
+    <circle r="120" fill="rgba(212,175,55,0.06)" />
+
+    <!-- Stylized Central Icon / Motif -->
+    <!-- Embroidery Hoop & Threads -->
+          <circle r="95" fill="none" stroke="url(#goldGrad)" stroke-width="6" />
+          <circle r="88" fill="none" stroke="#D4AF37" stroke-width="2" stroke-dasharray="3,3" />
+          <!-- Peacock / Floral Petals inside hoop -->
+          <path d="M 0 -60 C 40 -30 40 30 0 60 C -40 30 -40 -30 0 -60 Z" fill="rgba(212,175,55,0.18)" stroke="url(#goldGrad)" stroke-width="2" />
+          <path d="M -60 0 C -30 40 30 40 60 0 C 30 -40 -30 -40 -60 0 Z" fill="rgba(212,175,55,0.18)" stroke="url(#goldGrad)" stroke-width="2" />
+          <circle cx="0" cy="0" r="14" fill="url(#goldGrad)" />
+          <!-- Needle -->
+          <line x1="-80" y1="90" x2="60" y2="-90" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+          <line x1="-80" y1="90" x2="-95" y2="105" stroke="url(#goldGrad)" stroke-width="2" stroke-dasharray="2,3" />
+  </g>
+
+  <!-- Typography Labels -->
+  <g text-anchor="middle">
+    <text x="400" y="690" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="700" fill="#FFFFFF" letter-spacing="1">
+      Peacock Motif Computer Work
+    </text>
+    <text x="400" y="735" font-family="'Poppins', sans-serif" font-size="18" font-weight="400" fill="#E5C07B" letter-spacing="2">
+      MULTI-COLOR NEEDLE EMBROIDERY
+    </text>
+    
+    <!-- Gold Line Divider -->
+    <path d="M 280 770 L 370 770 M 430 770 L 520 770" stroke="url(#goldGrad)" stroke-width="1.5" />
+    <circle cx="400" cy="770" r="5" fill="#D4AF37" />
+
+    <text x="400" y="825" font-family="'Poppins', sans-serif" font-size="16" fill="rgba(255,255,255,0.75)">
+      HIBA LADIES TAILOR &amp; EMBROIDERY WORKS
+    </text>
+    <text x="400" y="860" font-family="'Poppins', sans-serif" font-size="14" fill="#D4AF37">
+      Mavinakere, Raichur • Phone: 093537 63089
+    </text>
+  </g>
+</svg>

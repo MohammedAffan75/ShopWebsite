@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hibaladiestailor.com/sitemap.xml

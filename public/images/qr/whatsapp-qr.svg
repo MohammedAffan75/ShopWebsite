@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="qrGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF1C7" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#996515" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="560" rx="20" fill="#FFFFFF" />
+  <rect x="15" y="15" width="470" height="530" rx="16" fill="none" stroke="#D4AF37" stroke-width="2" />
+  
+  <!-- QR Border Box -->
+  <rect x="50" y="45" width="400" height="400" rx="12" fill="#FAF5EE" stroke="#E5C07B" stroke-width="1.5" />
+
+  <!-- Corner Finder Patterns -->
+  <g fill="#4A0E2E">
+    <!-- Top-Left Finder -->
+    <rect x="80" y="75" width="80" height="80" rx="10" />
+    <rect x="94" y="89" width="52" height="52" rx="6" fill="#FAF5EE" />
+    <rect x="106" y="101" width="28" height="28" rx="4" />
+
+    <!-- Top-Right Finder -->
+    <rect x="340" y="75" width="80" height="80" rx="10" />
+    <rect x="354" y="89" width="52" height="52" rx="6" fill="#FAF5EE" />
+    <rect x="366" y="101" width="28" height="28" rx="4" />
+
+    <!-- Bottom-Left Finder -->
+    <rect x="80" y="335" width="80" height="80" rx="10" />
+    <rect x="94" y="349" width="52" height="52" rx="6" fill="#FAF5EE" />
+    <rect x="106" y="361" width="28" height="28" rx="4" />
+  </g>
+
+  <!-- Stylized Data Dots & Blocks -->
+  <g fill="#4A0E2E" opacity="0.85">
+    <rect x="180" y="80" width="20" height="40" />
+    <rect x="220" y="80" width="30" height="20" />
+    <rect x="270" y="90" width="40" height="20" />
+    <rect x="180" y="140" width="40" height="20" />
+    <rect x="240" y="130" width="20" height="40" />
+    <rect x="280" y="140" width="30" height="30" />
+    <rect x="340" y="180" width="40" height="20" />
+    
+    <!-- Center Logo Shield -->
+    <rect x="200" y="200" width="100" height="100" rx="16" fill="#4A0E2E" />
+    <circle cx="250" cy="250" r="38" fill="url(#qrGold)" />
+    <text x="250" y="260" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="900" fill="#4A0E2E" text-anchor="middle">H</text>
+
+    <!-- Lower Data Matrix -->
+    <rect x="180" y="320" width="30" height="30" />
+    <rect x="230" y="340" width="40" height="20" />
+    <rect x="290" y="320" width="30" height="40" />
+    <rect x="340" y="280" width="40" height="20" />
+    <rect x="340" y="340" width="30" height="40" />
+    <rect x="390" y="320" width="30" height="40" />
+    <rect x="230" y="380" width="40" height="40" />
+    <rect x="290" y="380" width="50" height="30" />
+  </g>
+
+  <!-- Bottom Labels -->
+  <g text-anchor="middle">
+    <text x="250" y="485" font-family="'Poppins', sans-serif" font-size="20" font-weight="700" fill="#4A0E2E">
+      Scan to WhatsApp Us
+    </text>
+    <text x="250" y="515" font-family="'Poppins', sans-serif" font-size="13" font-weight="500" fill="#888888">
+      HIBA LADIES TAILOR • RAICHUR
+    </text>
+  </g>
+</svg>

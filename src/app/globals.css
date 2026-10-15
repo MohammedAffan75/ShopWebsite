@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --plum-950: #1A0310;
+  --plum-900: #2C061B;
+  --plum-800: #420A29;
+  --plum-700: #5C123B;
+  --plum-600: #7A1950;
+  --plum-500: #9B2467;
+  --plum-50:  #FAF1F6;
+
+  --gold-600: #996515;
+  --gold-500: #D4AF37;
+  --gold-400: #E5C07B;
+  --gold-300: #F3E5AB;
+  --gold-100: #FAF6EA;
+  --gold-50:  #FDFBF4;
+
+  --cream-50:  #FFFDF9;
+  --cream-100: #FAF6F0;
+  --cream-200: #F3EBE1;
+  --cream-300: #EAE0D3;
+
+  --font-serif: 'Playfair Display', Georgia, Cambria, serif;
+  --font-sans: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-kannada: 'Noto Sans Kannada', var(--font-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--cream-100);
+  color: #2D2424;
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Headings with Serif */
+h1, h2, h3, .font-display {
+  font-family: var(--font-serif);
+  letter-spacing: -0.01em;
+}
+
+/* Kannada Specific Typography */
+.lang-kn, [lang="kn"] {
+  font-family: var(--font-kannada);
+  line-height: 1.7;
+}
+
+/* Gold Gradient Shimmer Text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 50%, #B8860B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-metallic {
+  background: linear-gradient(135deg, #AA7C11 0%, #D4AF37 40%, #AA7C11 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Plum Gradient */
+.bg-plum-gradient {
+  background: linear-gradient(145deg, #2C061B 0%, #420A29 60%, #1A0310 100%);
+}
+
+.bg-plum-card {
+  background: linear-gradient(160deg, #380B23 0%, #220515 100%);
+}
+
+/* Gold Border Embroidery Motif */
+.border-gold-embroidery {
+  border: 1px dashed rgba(212, 175, 55, 0.5);
+}
+
+.border-thread {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #D4AF37 0px,
+    #D4AF37 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  background-size: 100% 1.5px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+/* Delicate Fabric / Linen Background Pattern */
+.bg-fabric-pattern {
+  background-color: #FAF6F0;
+  background-image: radial-gradient(rgba(74, 14, 46, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.bg-plum-lace {
+  background-color: #2C061B;
+  background-image: radial-gradient(rgba(212, 175, 55, 0.12) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Buttons with Minimum 48px Tap Targets for Mobile Accessibility */
+.btn-touch {
+  min-height: 48px;
+  min-width: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #996515;
+}

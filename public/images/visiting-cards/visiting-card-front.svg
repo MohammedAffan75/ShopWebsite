@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D0B24" />
+      <stop offset="50%" stop-color="#2A0518" />
+      <stop offset="100%" stop-color="#19020E" />
+    </linearGradient>
+    <linearGradient id="cardGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF1C7" />
+      <stop offset="45%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#996515" />
+    </linearGradient>
+    <pattern id="cardLace" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 15 0 L 30 15 L 15 30 L 0 15 Z" fill="none" stroke="rgba(212,175,55,0.08)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1050" height="600" rx="24" fill="url(#cardBg)" />
+  <rect width="1050" height="600" rx="24" fill="url(#cardLace)" />
+  <rect x="25" y="25" width="1000" height="550" rx="18" fill="none" stroke="url(#cardGold)" stroke-width="2" stroke-dasharray="8,6" opacity="0.6" />
+  <rect x="40" y="40" width="970" height="520" rx="14" fill="none" stroke="url(#cardGold)" stroke-width="1" opacity="0.3" />
+
+  
+  <!-- Front of Visiting Card -->
+  <g transform="translate(100, 100)">
+    <!-- Brand Emblem -->
+    <circle cx="80" cy="80" r="55" fill="none" stroke="url(#cardGold)" stroke-width="3" />
+    <circle cx="80" cy="80" r="48" fill="rgba(212,175,55,0.1)" />
+    <!-- Scissor and Thread Silhouette -->
+    <path d="M 60 60 L 100 100 M 100 60 L 60 100" stroke="url(#cardGold)" stroke-width="4" stroke-linecap="round" />
+    <circle cx="55" cy="55" r="9" fill="none" stroke="url(#cardGold)" stroke-width="3" />
+    <circle cx="105" cy="55" r="9" fill="none" stroke="url(#cardGold)" stroke-width="3" />
+    <circle cx="80" cy="80" r="4" fill="#FFFFFF" />
+  </g>
+
+  <g transform="translate(280, 130)">
+    <text font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="800" fill="url(#cardGold)" letter-spacing="1">
+      HIBA LADIES TAILOR
+    </text>
+    <text y="42" font-family="'Poppins', sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" letter-spacing="3">
+      &amp; EMBROIDERY WORKS
+    </text>
+    <text y="75" font-family="'Noto Sans Kannada', sans-serif" font-size="16" fill="#FBF1C7" opacity="0.9">
+      ಹಿಬಾ ಲೇಡೀಸ್ ಟೈಲರ್ ಮತ್ತು ಎಂಬ್ರಾಯ್ಡರಿ ವರ್ಕ್ಸ್
+    </text>
+    <text y="105" font-family="'Poppins', sans-serif" font-size="14" font-weight="400" fill="#D4AF37" letter-spacing="2">
+      PERFECT FIT • BEAUTIFUL EMBROIDERY • ON-TIME DELIVERY
+    </text>
+  </g>
+
+  <line x1="80" y1="310" x2="970" y2="310" stroke="url(#cardGold)" stroke-width="1.5" opacity="0.4" />
+
+  <!-- Details Row -->
+  <g transform="translate(80, 360)">
+    <!-- Services column -->
+    <text font-family="'Poppins', sans-serif" font-size="15" font-weight="600" fill="#FBF1C7">SPECIALITIES:</text>
+    <text y="28" font-family="'Poppins', sans-serif" font-size="14" fill="#FFFFFF">• Bridal &amp; Designer Blouse Stitching</text>
+    <text y="52" font-family="'Poppins', sans-serif" font-size="14" fill="#FFFFFF">• Computer &amp; Aari Embroidery Work</text>
+    <text y="76" font-family="'Poppins', sans-serif" font-size="14" fill="#FFFFFF">• Salwar Suits, Lehengas &amp; Alterations</text>
+  </g>
+
+  <g transform="translate(560, 360)">
+    <!-- Contact Info -->
+    <text font-family="'Poppins', sans-serif" font-size="15" font-weight="600" fill="#FBF1C7">CONTACT &amp; ADDRESS:</text>
+    <text y="28" font-family="'Poppins', sans-serif" font-size="15" font-weight="700" fill="url(#cardGold)">📞 093537 63089 (Call / WhatsApp)</text>
+    <text y="54" font-family="'Poppins', sans-serif" font-size="14" fill="#FFFFFF">📍 1/4-1258-409, Mavinakere, Raichur - 584103</text>
+    <text y="78" font-family="'Poppins', sans-serif" font-size="13" fill="#D4AF37">⏰ Open Daily (Closes 8:00 PM) • Plus Code: 59R4+FC</text>
+  </g>
+  
+</svg>

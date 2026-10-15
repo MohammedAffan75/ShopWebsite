@@ -1,0 +1,23 @@
+{
+  "name": "Hiba Ladies Tailor & Embroidery Works",
+  "short_name": "Hiba Tailor",
+  "description": "Ladies Tailor & Computer Embroidery Specialist in Raichur. Perfect Fit, Beautiful Embroidery.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2C061B",
+  "theme_color": "#420A29",
+  "icons": [
+    {
+      "src": "/images/placeholders/shop-outside.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/placeholders/shop-outside.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
