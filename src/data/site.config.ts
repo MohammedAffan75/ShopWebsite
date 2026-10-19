@@ -176,8 +176,8 @@ export const siteConfig: SiteConfig = {
       plusCode: "59R4+FC Raichur, Karnataka",
     },
     hours: {
-      openingTime: "10:00 AM", // [PLACEHOLDER - edit if actual opening time is different]
-      closingTime: "8:00 PM",
+      openingTime: "11:00 AM", // [PLACEHOLDER - edit if actual opening time is different]
+      closingTime: "9:00 PM",
       openingHour24: 10,
       closingHour24: 20,
       daysOpenText: {
@@ -202,7 +202,7 @@ export const siteConfig: SiteConfig = {
       googleMapsListing: "https://maps.app.goo.gl/9VwTmrHgShqa3nRR8",
       googleDirectionsUrl: "https://www.google.com/maps/dir/?api=1&destination=59R4%2BFC+Raichur,+Karnataka",
       googleReviewUrl: "https://maps.app.goo.gl/9VwTmrHgShqa3nRR8",
-      instagramUrl: "https://instagram.com/[PLACEHOLDER_INSTAGRAM_HANDLE]",
+      instagramUrl: "https://www.instagram.com/raichur_hiba_embroideryworks/?hl=en",
       facebookUrl: "https://facebook.com/[PLACEHOLDER_FACEBOOK_PAGE]",
       websiteUrl: "https://hibaladiestailor.com",
     },
